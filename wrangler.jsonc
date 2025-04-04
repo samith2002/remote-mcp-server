@@ -30,5 +30,10 @@
 	"observability": {
 		"enabled": true
 	},
-	"assets": { "directory": "./static/", "binding": "ASSETS" }
+	"assets": { "directory": "./static/", "binding": "ASSETS" },
+	"vars": {
+		"SUPABASE_URL": "https://qhemclgmudwktcyuvvoi.supabase.co",
+		"SUPABASE_SERVICE_ROLE_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InFoZW1jbGdtdWR3a3RjeXV2dm9pIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0MDk4MTA3NiwiZXhwIjoyMDU2NTU3MDc2fQ.cWjdhmyq82n2-25Dvkxbon44kQ9TdlrLi9oUu6c_2lw",
+		"VITE_GEMINI_API_KEY" : "AIzaSyCHlWDSazWhcZM9f06CGcbt-Ou1KFg1Nrk"
+	}
 }
